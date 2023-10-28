@@ -1,0 +1,11 @@
+.Electrician{
+    border: thin solid;
+    border-radius: 8px;
+    padding: 5px 2rem;
+    min-height: 7em;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 12em;
+}

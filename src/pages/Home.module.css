@@ -1,0 +1,31 @@
+.Home>.actions>h4{
+    margin: 0;
+    text-decoration: underline;
+}
+
+.sites, .electricians{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.actions{
+    /* border: thin solid; */
+    padding: 5px 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.assign__btn{
+    outline: none;
+    border: none;
+    background-color: #0174BE;
+    border-radius: 7px;
+    padding: .8rem 1rem;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: .4px;
+}
